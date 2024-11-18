@@ -1,0 +1,395 @@
+html {
+    scroll-behavior: smooth;
+
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.Cabecalho {
+    background-color: rgb(139, 78, 8);
+    width: 100%;
+    height: 120px;
+    display: flex;
+    border-bottom: 6px solid rgb(177, 88, 5);
+}
+
+.Menu {
+    border-radius: 10px;
+    font-size: 20px;
+    color: rgb(247, 192, 130);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vh;
+    margin-top: 4%;
+    margin-left: 45%;
+    cursor: pointer;
+
+}
+
+#contagemBurguer {
+    margin-left: 50px;
+    border-radius: 8px;
+    height: 6vh;
+    width: 14vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(247, 192, 130)
+}
+
+
+#texto1 {
+    margin-left: 50px;
+    border-radius: 8px;
+    height: 6vh;
+    width: 14vh;
+
+}
+
+#texto1:hover {
+    background-color: rgb(177, 88, 5);
+    opacity: 100%;
+}
+
+#texto2:hover {
+    background-color: rgb(177, 88, 5);
+    opacity: 100%;
+}
+
+#texto3:hover {
+    background-color: rgb(177, 88, 5);
+    opacity: 100%;
+}
+
+#texto4:hover {
+    background-color: rgb(177, 88, 5);
+    opacity: 100%;
+}
+
+#box {
+    display: none;
+    position: fixed;
+    padding: 10px;
+    background-color: rgb(247, 192, 130);
+    top: 15.25%;
+    left: 26%;
+    border-radius: 20px;
+    text-align: left;
+    border-bottom: 6px solid rgb(177, 88, 5);
+}
+
+#fechaBox {
+    margin-left: 100px;
+    padding: 3px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(139, 78, 8);
+    color: rgb(247, 192, 130);
+    cursor: pointer;
+}
+
+#fechaBox:hover {
+    background-color: rgb(177, 88, 5);
+    opacity: 100%;
+
+}
+
+p,
+h5 {
+    font-size: 15px;
+    color: rgb(177, 88, 5);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+}
+h5:hover{
+    border-radius: 6px;
+    background-color: rgb(247, 192, 130);
+    opacity: 80%;
+}
+
+#queSomos {
+    display: none;
+    position: fixed;
+    height: 50vh;
+    width: 50vw;
+    padding: 10px;
+    background-color: rgb(247, 192, 130);
+    top: 15.25%;
+    border-radius: 20px;
+    text-align: left;
+    border-bottom: 6px solid rgb(177, 88, 5);
+}
+
+#fechaQuemSomos {
+    margin-top: 50px;
+    margin-left: 400px;
+    padding: 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(139, 78, 8);
+    color: rgb(247, 192, 130);
+    cursor: pointer;
+}
+
+#fechaQuemSomos:hover {
+    background-color: rgb(177, 88, 5);
+    opacity: 100%;
+
+}
+
+#imagemQuemSomos {
+    border-radius: 10px;
+
+}
+
+#imagemBurguer {
+    display: none;
+    position: fixed;
+    padding: 10px;
+    background-color: rgb(247, 192, 130);
+    top: 15.25%;
+    left: 26%;
+    border-radius: 20px;
+    text-align: left;
+    border-bottom: 6px solid rgb(177, 88, 5);
+}
+
+#fechaBurguer {
+    margin-left: 100px;
+    padding: 3px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(139, 78, 8);
+    color: rgb(247, 192, 130);
+    cursor: pointer;
+}
+
+#fechaBurguer:hover {
+    background-color: rgb(177, 88, 5);
+    opacity: 100%;
+
+}
+
+
+
+#texto2 {
+    margin-left: 50px;
+    border-radius: 8px;
+    height: 6vh;
+    width: 19vh;
+}
+
+#texto3 {
+    margin-left: 50px;
+    border-radius: 8px;
+    height: 6vh;
+    width: 10vh;
+
+}
+
+#texto4 {
+    margin-left: 50px;
+    border-radius: 8px;
+    height: 6vh;
+    width: 14vh;
+
+}
+
+a {
+    color: rgb(247, 192, 130);
+    text-decoration: none;
+}
+
+
+#Lupa {
+
+
+    font-size: 17px;
+    color: rgb(247, 192, 130);
+    font-style: initial;
+    display: flex;
+    justify-content: center;
+    margin-left: 31vh;
+    margin-top: 66px;
+}
+
+#Pesquisar {
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    margin-right: 1%;
+    margin-top: 60px;
+    height: 32px;
+}
+
+/* codigo da aba pricinpal */
+.Principal {
+    height: 170vh;
+    background-color: rgb(15, 12, 10);
+
+}
+
+#titulo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 20px;
+    background-color: rgb(54, 46, 39);
+    color: rgb(247, 192, 130);
+
+
+
+
+}
+
+#tituloCombos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 20px;
+    background-color: rgb(54, 46, 39);
+    color: rgb(247, 192, 130);
+
+
+}
+
+.todasImagens {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-right: 3%;
+
+}
+
+.todosCombos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-right: 10%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#imagemCombos {
+
+    width: 100%;
+    margin-top: 80px;
+    border-radius: 20px;
+    margin-left: 5vw;
+    cursor: pointer;
+
+}
+
+#imagem, #imagem1, #imagem2, #imagem3, #imagem4, #imagem5 ,#imagem6, #imagem7{
+
+    margin-top: 80px;
+    border-radius: 20px;
+    margin-left: 5vw;
+    cursor: pointer;
+}
+
+
+#imagem:hover {
+    transform: scale(1.2);
+}
+#imagem1:hover {
+    transform: scale(1.2);
+}
+#imagem2:hover {
+    transform: scale(1.2);
+}
+#imagem3:hover {
+    transform: scale(1.2);
+}
+#imagem4:hover {
+    transform: scale(1.2);
+}
+#imagem5:hover {
+    transform: scale(1.2);
+}
+#imagem6:hover {
+    transform: scale(1.2);
+}
+#imagem7:hover {
+    transform: scale(1.2);
+}
+
+#textoImagem {
+    color: rgb(247, 192, 130);
+    display: flex;
+    flex-direction: column;
+    width: 15vw;
+    margin-left: 4vw;
+    padding: 10px;
+}
+
+#textoCombos {
+
+    font-size: 25px;
+    color: rgb(177, 88, 5);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 20vw;
+    margin-left: 1vw;
+
+
+
+
+}
+
+
+#subtituloImagem {
+    margin-left: 30px;
+}
+
+li {
+    margin-left: 10px;
+
+}
+
+/* codigo do rodape */
+
+
+.Rodape {
+    background-color: rgb(139, 78, 8);
+    width: 100%;
+    height: 125px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#tituloRodape{
+    font-size: 20px;
+    color: rgb(247, 192, 130);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100vh;
+    margin-left: 36%;
+   
+
+}
+#textoRodape{
+    color: rgb(247, 192, 130);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 4px;
+    margin-left: 39%;
+    cursor: pointer;
+   
+}
+#textoRodape:hover{
+    border-radius: 4px;
+    background-color: rgb(177, 88, 5);
+    padding: 2px;
+    width: 185px;
+    opacity: 100%;
+}
